@@ -1,6 +1,36 @@
 # README
 
-## NOTE: Multiprogramming is implemented according to my device. It can be optimized on the use cases (how much computation is available)
+# Sentiment Analysis Project with Multiprogramming
+
+This project aims to classify the sentiment of blog post data as positive or negative using predefined positive and negative word lists and calculate various readability indexes such as sentiment index, fog index etc. Multiprogramming is implemented to reduce the time of execution. The text data is collected from over 100+ blog pages.
+
+## Data
+The data used in this project is a collection of blog posts. The data includes the text of the posts. The data is scraped from over 100+ blog pages.
+
+## Methods
+The sentiment analysis is performed by counting the number of positive and negative words in the text and classifying the text as positive or negative based on the ratio of positive words to negative words. The readability indexes such as sentiment index, fog index etc. are calculated using predefined formulas. Multiprogramming is implemented to run multiple processes in parallel, reducing the time of execution.
+
+## Results
+The results show the calculated sentiment index, fog index and the overall sentiment of the blog post (positive or negative). The execution time is also reported and compared to the execution time without multiprogramming.
+
+## Usage
+The code for this project is written in Python and uses the following libraries:
+
+Pandas
+Numpy
+NLTK
+Any other libraries used for scraping
+Multiprocessing
+
+To run the code, clone the repository and run the python code analytics.py.
+
+## Conclusion
+This project demonstrates how to classify the sentiment of blog posts using predefined positive and negative word lists, calculate various readability indexes using formulas and reduce the execution time using multiprogramming. The approach can be applied to other forms of text data. The calculated readability indexes such as sentiment index, fog index etc. can be useful in understanding the readability level of text data. Additionally, the sentiment analysis can be very useful in understanding public opinion and providing valuable insights. Multiprogramming can also be applied to other projects to improve execution time.
+
+
+
+
+
 
 ## Functions and its roles:
 
